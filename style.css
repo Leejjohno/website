@@ -1,0 +1,124 @@
+body {
+    background-image: url("sword.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: monospace;
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    font-size: 80px;
+    color: lightgray;
+}
+h2 {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 40px;
+    color: lightgray;
+}
+
+h3 {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 30px;
+    color: lightgray;
+}
+
+/* all paragraphs; depicted as <p>, are targetted to:
+- have a black background which is transluscent (rgba 0, 0, 0, .6),
+- have a font size of 18 pixels
+- are aliceblue (a shade of white)
+- have an invisible border which is 10% of the size of the screen
+*/
+p {
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 18px;
+    text-align: justify;
+    color: lightgray;
+    border: 5%;
+    margin: 5%;
+}
+#review_div {
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 18px;
+    color: aliceblue;
+    border: 10%;
+    text-align: justify;
+}
+
+/* this is my navbar with flexbox components in it*/
+#navbar {
+    display:flex;
+    margin: 10%;
+    justify-content:center;
+    border-color: rgba(255, 166, 0, 0.4);
+    border-style: solid;
+    border-width: 5%;
+    gap: 5%;
+    row-gap: 5%;
+    column-gap: 5%;
+}
+
+/* this makes the text in the navbar have solid underlining.
+Note how we can target 'a' within 'navbar' */
+#navbar a {
+    font-size: large;
+    text-decoration-style: solid;
+    color: orange;
+}
+
+/* makes the hyperlinks in the navbar glow white when you hover over*/
+#navbar a:hover {
+    color:aliceblue;
+}
+
+/* this targets .large and makes it appear larger*/
+.large {
+    font-size: 30px;
+}
+
+/*this takes any image that has been targeted and applies scalable properties to it (it will stretch with the page size)*/
+img {
+    width:100%;
+    max-width: auto;
+}
+
+.game_title {
+    color: lightgray;
+    text-align: center;
+}
+.vreview {
+    box-decoration-break: inherit;
+}
+
+.linegaps {
+    line-height: 30px;
+}
+
+.eyesooth {
+    color: darkgrey;
+}
+
+ /* this will take an image from the url and make it the background */
+ /* {
+    background-image: url("");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+/* 
+Webpage needs:
+- content
+- padding
+- border
+- margin
+ */
+
+ 
+
